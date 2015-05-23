@@ -15,10 +15,10 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-<link rel="stylesheet" href="/wp-content/uploads/wp-svg-icons/custom-pack/style.css">
 <script src="//use.typekit.net/xfp2fui.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript" src="/wp-content/themes/heatherlauren-theme/js/equalheight.js"></script>
+<script src="//use.typekit.net/kvf8llm.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body <?php body_class(); ?>>
