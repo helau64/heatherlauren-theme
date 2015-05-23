@@ -1,0 +1,155 @@
+@media screen and (min-width: 1145px) {
+		html {
+			font-size: 100%;
+		}
+		.site-branding {
+			width: 48%;
+			display: inline-block;
+		}
+		.main-navigation {
+			display: inline-block;
+			width: 48%;
+			text-align: right;
+		}
+		.entry-content {
+  			width: 66%;
+  		}
+		.main-page {
+			width: 80%;
+			margin: auto;
+		}
+		.main-page__interest--day {
+			width: 49%;
+			margin: 5% 0%;
+		}
+
+		.main-page__interest--night {
+			width: 49%;
+			margin: 5% 0%;
+		}
+		.main-page__info--cat {
+			width: 30%;
+			h6 {
+				margin-bottom: 10%;
+			}
+		}
+		.main-page__nav--item {
+			width: 49%;	
+		}
+		.contact-page__info {
+			display: inline-block;
+			width: 40%;
+		}
+		.contact-page__info {
+		margin-top: -2%;
+		}
+}
+
+@media screen and (max-width: 1144px) {
+		html {
+			font-size: 100%;
+		}
+		.header--img {
+			display: inline-block;
+			width: 48%
+		}
+		.header--navbar {
+			display: inline-block;
+			width: 49%;
+			text-align: right;
+		}
+		.entry-content {
+  			width: 66%;
+  		}
+		.main-page {
+			width: 80%;
+			margin: auto;
+		}
+		.main-page__interest--day {
+			width: 49%;
+			margin: 5% 0%;
+		}
+		.main-page__interest--night {
+			width: 49%;
+			margin: 5% 0%;
+		}
+		.main-page__info--cats {
+			h4 {
+				margin: 1%;
+			}
+		}
+		.main-page__info--cat {
+			width: 50%;
+		h6 {
+			margin-bottom: 5%;
+			}
+		}
+		.main-page__nav--item {
+			width: 49%;
+		}
+		.contact-page__info {
+			display: inline-block;
+			width: 40%;
+		}
+		.contact-page__info {
+		margin-top: -2%;
+		}
+	}
+
+@media screen and (max-width: 1040px) {
+		.header--img {
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		.main-navigation {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+@media screen and (max-width: 768px) {
+		.entry-content {
+  			width: 100%;
+  		}
+		.main-page {
+			width: 95%;
+		}
+		.main-page__interest--day {
+			width: 100%;
+			margin-top: 5%;
+		}
+		.main-page__interest--night {
+			width: 100%;
+			margin-bottom: 5%;
+		}
+		.main-page__info--cats {
+			h4 {
+			margin: 3%;
+			}
+		}
+		.main-page__info--cat {
+			width: 50%;
+		}
+		.main-page__nav--item {
+			width: 50%;
+			margin: 3%;
+		}
+		.contact-page__info {
+			display: block;
+			width: 100%;
+			margin-bottom: 5%;
+		}
+		.contact-page__info--email {
+			margin-top: -5%;
+		}
+	}
+
+@media screen and (max-width: 680px) {
+		html {
+			font-size: 80%;
+		}
+	}

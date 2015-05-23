@@ -1,0 +1,379 @@
+@import "colors";
+@import "fonts";
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 General
+2.0 Header
+3.0 Footer
+4.0 Main Page
+5.0 Blog
+6.0 Portfolio
+7.0 Contact Page
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 General
+--------------------------------------------------------------*/
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background-color: $blue;
+	box-sizing: border-box;
+	color: $black;
+	font-family: $caption;
+	line-height: 1;
+}
+
+a {
+	color: $orange;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darken( $orange, 10%);
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.entry-header {
+	width: 100%;
+	text-align: center;
+	color: $white;
+	background-color: $orange;
+	font-family: $heading;
+	font-size: 1.8rem;
+	line-height: 1.2
+}
+
+.site-content {
+  background: #eeeeee;
+  width: 85%;
+  padding: 2%;
+  margin: auto auto; }
+
+.entry-content {
+  margin: 3rem auto;
+  font-family: "pt-serif", serif;
+  line-height: 1.5; }
+
+/*--------------------------------------------------------------
+2.0 Header
+--------------------------------------------------------------*/
+
+.site-header {
+	width: 75%;
+	margin: 2% auto;
+	background-color: $white;
+	font-family: $heading;
+	font-size: 2rem;
+}
+
+.main-navigation {
+	padding: 1%;
+	li {
+	display: inline;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	}
+}
+
+/*--------------------------------------------------------------
+3.0 Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+	width: 75%;
+	padding: 1%;
+	margin: 2% auto;
+	background-color: $white;
+	font-family: $caption;
+	text-align: center;
+	 a {
+	 	font-weight: 200;
+	 }
+}
+
+.site-info {
+	margin: auto 0;
+}
+
+.footer__nav {
+	li {
+	display: inline;
+	}
+	li:after {
+	content: " | ";
+	}
+	li:last-child:after {
+	content: "";
+	}
+}
+
+.footer__copyright {
+	margin-top: 1%;
+	display: block;
+}
+
+/*--------------------------------------------------------------
+4.0 Main Page
+--------------------------------------------------------------*/
+
+.main-page {
+	font-family: $heading;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.main-page__gen--intro {
+	font-size: 3rem;
+	background-color: $orange;
+	color: $white;
+	line-height: 1.5;
+	margin-top: -2.5rem;
+}
+
+.main-page__interest--day {
+	padding: 2%;
+	display: inline-block;
+	background-color: $yellow;
+	overflow: hidden;
+}
+
+.main-page__interest--night {
+	padding: 2%;
+	display: inline-block;
+	background-color: $darkblue;
+	color: $white;
+	overflow: hidden;
+}
+
+.main-icon {
+ font-size: 3rem;
+ margin-top: 2%;
+}
+
+.main-icon-interest {
+ 	font-size: 4rem;
+}
+
+.main-icon-moon {
+ 	font-size: 6rem;
+ 	line-height: 35%;
+}
+
+.main-page__interest--intro {
+	margin-bottom: 5%;
+}
+
+.main-page__interest--ah {
+	text-align: left;
+	padding: 1% 2%;
+	margin: 0;
+	background-color: $yellow;
+}
+
+.main-page__interest--d {
+	text-align: right;
+	padding: 1% 2%;
+	background-color: $darkblue;
+	color: $white;
+}
+
+.main-page__info--intro {
+	margin: 5% 0%;
+}
+
+.main-page__info--live {
+	background-color: $black;
+	color: $white;
+	padding: 1% 1% 5% 1%;
+	margin-bottom: 5%;
+}
+
+.main-page__info--cats {
+	margin: 3% 0%;
+}
+
+.main-page__info--cat {
+	display: inline-block;
+	margin: 3% 0%;
+	h6 {
+		font-size: 1.8rem;
+		margin-top: -2rem;
+	}
+}
+
+.main-page__nav--intro {
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+.main-page__nav--list {
+	margin-top: -5%;
+}
+
+.main-page__nav--item {
+	display: inline-block;
+
+	span {
+		font-size: 4rem;
+	}
+
+	li {
+		margin: 5%;
+	}
+}
+
+.main-page__nav--contact {
+
+	p {
+		margin: 2%;
+	}
+
+	span {
+		font-size: 4rem;
+	}
+}
+
+/*--------------------------------------------------------------
+5.0 Blog
+--------------------------------------------------------------*/
+.blog-page {
+	.entry-content {
+		width: 100%;
+	}
+}
+.entry-meta {
+	font-family: $caption;
+	text-align: center;
+	margin-top: -2%;
+}
+
+.blog-post {
+	background: $white;
+	width: 85%;
+	padding: 2%;
+	margin: auto auto;
+}
+
+.entry-content {
+	width: 75%;
+	margin: auto auto;
+	font-family: $body;
+	line-height: 1.5;
+}
+
+.entry-footer {
+	width: 66%;
+	margin: auto auto;
+
+}
+
+.tags {
+	width: 66%;
+	margin: 4% auto 1% auto;
+	font-weight: 700;
+	text-transform: uppercase;
+	a {
+		background-color: $orange;
+		font-size: 0.8rem;
+		color: $white;
+		padding: 0.6%;
+	}
+	a:hover {
+	background-color: darken( $orange, 10%);
+	}
+}
+
+.comments-area {
+	width: 80%;
+	margin: 10% auto 2% auto;
+}
+
+.comment-form-comment {
+	label {
+		display: none;
+	}
+}
+
+/*--------------------------------------------------------------
+6.0 Portfolio
+--------------------------------------------------------------*/
+.portfolio-page {
+	.entry-content {
+	width: 100%;
+	}
+}
+.portfolio-items {
+	p {
+		width: 100%;
+	}
+	.entry-meta {
+		display: none;
+	}
+	.tiled-gallery-caption {
+		text-align: center;
+	}
+	.caption {
+		font-family: $caption;
+		background: darken( $white, 10%);
+		padding: 0.5rem;
+	}
+	.featured {
+		border: solid 1.5rem darken( $white, 30%);
+	}
+	.additional-image {
+		padding: 2%;
+	}
+}
+
+/*--------------------------------------------------------------
+7.0 Contact Page
+--------------------------------------------------------------*/
+.contact-page {
+	font-family: $heading;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.contact-header {
+	background-color: $orange;
+	color: $white;
+	line-height: 1.2;
+	font-size: 1.8rem;
+}
+
+
+.contact-page__info {
+	a {
+		display: block;
+		margin-top: 1%;
+	}
+}
+
+.contact-page__icon {
+	font-size: 4rem;
+}
+
+.contact-icon {
+	font-size: 4rem;
+}
+
+
+@import "mediaqueries";

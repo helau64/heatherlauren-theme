@@ -1,0 +1,1 @@
+function sameHeights(e){var e=e||'[data-key="sameHeights"]',t=document.querySelectorAll(e),i=t.length,h=0;if(i){for(;i--;){var l=t[i];l.clientHeight>h&&(h=l.clientHeight)}for(i=t.length;i--;){var l=t[i];l.style.height=h+"px"}}}
