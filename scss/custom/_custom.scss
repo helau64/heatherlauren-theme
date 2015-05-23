@@ -25,7 +25,6 @@ html {
 }
 
 body {
-	background-color: $blue;
 	box-sizing: border-box;
 	color: $black;
 	font-family: $caption;
@@ -134,120 +133,44 @@ ul {
 4.0 Main Page
 --------------------------------------------------------------*/
 
-.main-page {
+#splash {
+	width: 100%;
+	padding: 10% 5% 1% 5%;
+	background: #B9E1DF;
 	font-family: $heading;
-	text-align: center;
-	font-size: 2.5rem;
+	color: $black;
 }
 
-.main-page__gen--intro {
-	font-size: 3rem;
-	background-color: $orange;
-	color: $white;
-	line-height: 1.5;
-	margin-top: -2.5rem;
-}
-
-.main-page__interest--day {
-	padding: 2%;
-	display: inline-block;
-	background-color: $yellow;
-	overflow: hidden;
-}
-
-.main-page__interest--night {
-	padding: 2%;
-	display: inline-block;
-	background-color: $darkblue;
-	color: $white;
-	overflow: hidden;
-}
-
-.main-icon {
- font-size: 3rem;
- margin-top: 2%;
-}
-
-.main-icon-interest {
- 	font-size: 4rem;
-}
-
-.main-icon-moon {
- 	font-size: 6rem;
- 	line-height: 35%;
-}
-
-.main-page__interest--intro {
-	margin-bottom: 5%;
-}
-
-.main-page__interest--ah {
-	text-align: left;
-	padding: 1% 2%;
-	margin: 0;
-	background-color: $yellow;
-}
-
-.main-page__interest--d {
-	text-align: right;
-	padding: 1% 2%;
-	background-color: $darkblue;
-	color: $white;
-}
-
-.main-page__info--intro {
-	margin: 5% 0%;
-}
-
-.main-page__info--live {
-	background-color: $black;
-	color: $white;
-	padding: 1% 1% 5% 1%;
-	margin-bottom: 5%;
-}
-
-.main-page__info--cats {
-	margin: 3% 0%;
-}
-
-.main-page__info--cat {
-	display: inline-block;
-	margin: 3% 0%;
-	h6 {
-		font-size: 1.8rem;
-		margin-top: -2rem;
-	}
-}
-
-.main-page__nav--intro {
-	margin-top: 8%;
-	margin-bottom: 5%;
-}
-
-.main-page__nav--list {
-	margin-top: -5%;
-}
-
-.main-page__nav--item {
-	display: inline-block;
-
-	span {
-		font-size: 4rem;
-	}
-
-	li {
-		margin: 5%;
-	}
-}
-
-.main-page__nav--contact {
-
+#about {
+	background: #DCC6E0;
+	padding: 1% 1% 5%;
+	font-family: $heading;
+	font-weight: 900;
+	color: $black;
 	p {
-		margin: 2%;
+		font-family: $body;
 	}
+}
 
-	span {
-		font-size: 4rem;
+#about-designer {
+}
+
+#about-developer {
+
+}
+
+#about-activist {
+
+}
+
+#contact {
+	background: $white;
+	padding: 1% 1% 5%;
+	font-family: $heading;
+	font-weight: 900;
+	color: $black;
+	p {
+		font-family: $body;
 	}
 }
 
@@ -341,38 +264,6 @@ ul {
 	.additional-image {
 		padding: 2%;
 	}
-}
-
-/*--------------------------------------------------------------
-7.0 Contact Page
---------------------------------------------------------------*/
-.contact-page {
-	font-family: $heading;
-	font-size: 2rem;
-	text-align: center;
-}
-
-.contact-header {
-	background-color: $orange;
-	color: $white;
-	line-height: 1.2;
-	font-size: 1.8rem;
-}
-
-
-.contact-page__info {
-	a {
-		display: block;
-		margin-top: 1%;
-	}
-}
-
-.contact-page__icon {
-	font-size: 4rem;
-}
-
-.contact-icon {
-	font-size: 4rem;
 }
 
 
