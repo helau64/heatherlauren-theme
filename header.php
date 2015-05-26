@@ -17,6 +17,7 @@
 <?php wp_head(); ?>
 <script src="//use.typekit.net/kvf8llm.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/animate.css" type="text/css">
 </head>
 
 <body <?php body_class(); ?>>

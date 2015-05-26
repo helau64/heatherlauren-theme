@@ -1,3 +1,12 @@
-@media screen and (min-width: 1145px) {
+@media screen and (min-width: 801px) {
 
+}
+
+@media screen and (max-width: 800px) {
+	.main-page-section {
+		text-align: center;
 	}
+	h1 {
+		text-align: left;
+	}
+}

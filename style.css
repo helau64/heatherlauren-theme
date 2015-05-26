@@ -702,45 +702,22 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
-  box-sizing: border-box;
   color: #22313f;
   font-family: "pt-sans", sans-serif;
-  line-height: 1; }
+  line-height: 1.3; }
+
+p {
+  font-family: "p22-underground"; }
 
 a {
-  color: #E67E22;
+  color: #466581;
   text-decoration: none; }
 
 a:hover {
-  color: #bf6516; }
+  color: #10171e; }
 
 img {
   max-width: 100%; }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0; }
-
-.entry-header {
-  width: 100%;
-  text-align: center;
-  color: #eeeeee;
-  background-color: #E67E22;
-  font-family: "p22-underground-sc", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.2; }
-
-.site-content {
-  background: #eeeeee;
-  width: 85%;
-  padding: 2%;
-  margin: auto auto; }
-
-.entry-content {
-  margin: 3rem auto;
-  font-family: "pt-serif", serif;
-  line-height: 1.5; }
 
 /*--------------------------------------------------------------
 2.0 Header
@@ -763,51 +740,53 @@ ul {
 3.0 Footer
 --------------------------------------------------------------*/
 .site-footer {
-  width: 75%;
-  padding: 1%;
-  margin: 2% auto;
-  background-color: #eeeeee;
-  font-family: "pt-sans", sans-serif;
   text-align: center; }
-  .site-footer a {
-    font-weight: 200; }
-
-.site-info {
-  margin: auto 0; }
-
-.footer__nav li {
-  display: inline; }
-.footer__nav li:after {
-  content: " | "; }
-.footer__nav li:last-child:after {
-  content: ""; }
-
-.footer__copyright {
-  margin-top: 1%;
-  display: block; }
 
 /*--------------------------------------------------------------
 4.0 Main Page
 --------------------------------------------------------------*/
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2rem;
+  color: #3d5871; }
+
+.main-page-section {
+  padding: 2%; }
+
 #splash {
   width: 100%;
-  padding: 10% 5% 1% 5%;
-  background: #B9E1DF;
+  height: 100vh;
+  background: #26A65B;
   font-family: "p22-underground-sc", sans-serif;
-  color: #22313f; }
+  color: white;
+  padding: 8%; }
+
+hr {
+  background: white;
+  height: 0.2rem; }
 
 #about {
-  background: #DCC6E0;
-  padding: 1% 1% 5%;
+  width: 100%;
+  background: #E4F1FE;
   font-family: "p22-underground-sc", sans-serif;
   font-weight: 900;
-  color: #22313f; }
-  #about p {
-    font-family: "p22-underground"; }
+  color: #22313f;
+  padding-right: 15%; }
+
+.about-section p {
+  padding-left: 8%; }
+
+.about-info {
+  margin-top: 5%; }
 
 #contact {
-  background: #eeeeee;
-  padding: 1% 1% 5%;
+  width: 100%;
+  background: #8EA0B1;
   font-family: "p22-underground-sc", sans-serif;
   font-weight: 900;
   color: #22313f; }
@@ -881,3 +860,10 @@ ul {
   border: solid 1.5rem #a2a2a2; }
 .portfolio-items .additional-image {
   padding: 2%; }
+
+@media screen and (max-width: 800px) {
+  .main-page-section {
+    text-align: center; }
+
+  h1 {
+    text-align: left; } }
