@@ -12,9 +12,11 @@
 
 get_header(); ?>
 		<div id="splash" class="main-page-section">
-			<h1>HI</h1>
-			<hr>
-			<h1 class="animated fadeInUp">I'M HEATHER</h1>
+			<div id="splash-text">
+				<h1>HI</h1>
+				<hr>
+				<h1 class="animated fadeInUp">I'M HEATHER</h1>
+			</div>
 		</div>
 
 		<div id="about" class="main-page-section">

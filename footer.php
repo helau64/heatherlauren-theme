@@ -11,7 +11,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<span class="footer__copyright">Copyright &copy; 
+			<span class="footer__copyright">copyright &copy; 
 				<script type="text/javascript">
 				var d = new Date()
 				document.write(d.getFullYear())
