@@ -15,10 +15,11 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/animate.css" type="text/css">
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/modernizr/modernizr.js"></script>
 <script src="//use.typekit.net/kvf8llm.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/animate.css" type="text/css">
 </head>
 
 <body <?php body_class(); ?>>
@@ -30,8 +31,8 @@
 	-->
 	<div class="navbar">
 			<ul>
-				<li class="navbar-me"><a href="index.php?page_id=4">ME &#9662</a>
-					<ul class="navbar-dropdown">
+				<li><a href="index.php?page_id=4">ME &#9662</a>
+					<ul id="navbar-dropdown">
 						<li><a href="index.php?page_id=4/#about">ABOUT</a></li>
 						<li><a href="index.php?page_id=4/#contact">CONTACT</a></li>
 						<li id="navbar-search"><a href="">SEARCH</a></li>
@@ -46,5 +47,7 @@
 		</nav><!-- #site-navigation -->
 	<!--
 	</header><!-- #masthead -->
+
+	<!--href="index.php?page_id=4"-->
 
 	<div id="content" class="site-content">

@@ -1,0 +1,1 @@
+!function($){$(document).ready(function(){var n=0;$("navbar-me").click(function(){$("navbar-dropdown").toggle(n++%2===0)})})}(jQuery);

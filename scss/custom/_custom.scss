@@ -85,9 +85,8 @@ img {
 	}
 }
 
-.navbar-dropdown {
+#navbar-dropdown {
 	font-size: 1.2rem;
-	visibility: hidden;
 	background: $splash;
 	position: absolute;
 	
@@ -98,10 +97,6 @@ img {
 
 #navbar-search {
 	padding-bottom: 10%;
-}
-
-.navbar-me:hover .navbar-dropdown {
-	visibility: visible;
 }
 
 /*--------------------------------------------------------------

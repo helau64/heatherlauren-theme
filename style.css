@@ -756,19 +756,15 @@ img {
     display: inline-block;
     position: relative; }
 
-.navbar-dropdown {
+#navbar-dropdown {
   font-size: 1.2rem;
-  visibility: hidden;
   background: #E67E22;
   position: absolute; }
-  .navbar-dropdown li {
+  #navbar-dropdown li {
     padding-top: 10%; }
 
 #navbar-search {
   padding-bottom: 10%; }
-
-.navbar-me:hover .navbar-dropdown {
-  visibility: visible; }
 
 /*--------------------------------------------------------------
 3.0 Footer
