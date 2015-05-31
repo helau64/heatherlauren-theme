@@ -1,12 +1,42 @@
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
+	.navbar a {
+		padding: 1.5rem;
+	}
+
+	#about {
+		padding-right: 15%;
+	}
+
+	.about-section {
+		p {
+			padding-left: 8%;
+		}
+	}
 
 }
 
 @media screen and (max-width: 800px) {
+	.navbar a {
+		padding: 1.5rem;
+	}
+	
 	.main-page-section {
 		text-align: center;
+		padding-left: 5%;
+		padding-right: 5%;
+		line-height: 1.5;
 	}
+
 	h1 {
 		text-align: left;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.navbar {
+		text-align: center;
+		a {
+			padding: 0.5rem;
+		}
 	}
 }

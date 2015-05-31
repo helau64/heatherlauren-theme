@@ -39,6 +39,7 @@ p {
 a {
 	color: lighten( $black, 20%);
 	text-decoration: none;
+	transition: color 0.05s linear;
 }
 
 a:hover {
@@ -56,17 +57,20 @@ img {
 
 .navbar {
 	height: 10vh;
+	width: 100%;
 	padding: 2%;
 	font-family: $heading;
 	font-weight: 900;
 	color: white;
 	font-size: 1.5rem;
 	background: $splash;
-	width: 100%;
 
 	a {
 		color: white;
-		padding: 1.5rem;
+	}
+
+	a:hover {
+		color: $black;
 	}
 
 	ul {
@@ -79,10 +83,6 @@ img {
 		display: inline-block;
 		position: relative;
 	}
-
-	a:hover {
-		color: $black;
-	}
 }
 
 .navbar-dropdown {
@@ -90,9 +90,10 @@ img {
 	visibility: hidden;
 	background: $splash;
 	position: absolute;
-		li {
-			padding-top: 10%;
-		}
+	
+	li {
+		padding-top: 10%;
+	}
 }
 
 #navbar-search {
@@ -160,13 +161,6 @@ hr {
 	background: #E4F1FE;
 	font-family: $heading;
 	font-weight: 900;
-	padding-right: 15%;
-}
-
-.about-section {
-	p {
-		padding-left: 8%;
-	}
 }
 
 .about-info {

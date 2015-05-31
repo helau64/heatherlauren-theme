@@ -723,7 +723,8 @@ p {
 
 a {
   color: #466581;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: color 0.05s linear; }
 
 a:hover {
   color: #10171e; }
@@ -736,16 +737,17 @@ img {
 --------------------------------------------------------------*/
 .navbar {
   height: 10vh;
+  width: 100%;
   padding: 2%;
   font-family: "p22-underground-sc", sans-serif;
   font-weight: 900;
   color: white;
   font-size: 1.5rem;
-  background: #E67E22;
-  width: 100%; }
+  background: #E67E22; }
   .navbar a {
-    color: white;
-    padding: 1.5rem; }
+    color: white; }
+  .navbar a:hover {
+    color: #22313f; }
   .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -753,8 +755,6 @@ img {
   .navbar li {
     display: inline-block;
     position: relative; }
-  .navbar a:hover {
-    color: #22313f; }
 
 .navbar-dropdown {
   font-size: 1.2rem;
@@ -816,11 +816,7 @@ hr {
   width: 100%;
   background: #E4F1FE;
   font-family: "p22-underground-sc", sans-serif;
-  font-weight: 900;
-  padding-right: 15%; }
-
-.about-section p {
-  padding-left: 8%; }
+  font-weight: 900; }
 
 .about-info {
   margin-top: 5%; }
@@ -905,9 +901,29 @@ hr {
 .portfolio-items .additional-image {
   padding: 2%; }
 
+@media screen and (min-width: 800px) {
+  .navbar a {
+    padding: 1.5rem; }
+
+  #about {
+    padding-right: 15%; }
+
+  .about-section p {
+    padding-left: 8%; } }
 @media screen and (max-width: 800px) {
+  .navbar a {
+    padding: 1.5rem; }
+
   .main-page-section {
-    text-align: center; }
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5; }
 
   h1 {
     text-align: left; } }
+@media screen and (max-width: 430px) {
+  .navbar {
+    text-align: center; }
+    .navbar a {
+      padding: 0.5rem; } }
