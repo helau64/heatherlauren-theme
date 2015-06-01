@@ -89,10 +89,15 @@ img {
 	font-size: 1.2rem;
 	background: $splash;
 	position: absolute;
+	display: none;
 	
 	li {
 		padding-top: 10%;
 	}
+}
+
+#navbar-click {
+	cursor: pointer;
 }
 
 #navbar-search {

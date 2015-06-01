@@ -759,9 +759,13 @@ img {
 #navbar-dropdown {
   font-size: 1.2rem;
   background: #E67E22;
-  position: absolute; }
+  position: absolute;
+  display: none; }
   #navbar-dropdown li {
     padding-top: 10%; }
+
+#navbar-click {
+  cursor: pointer; }
 
 #navbar-search {
   padding-bottom: 10%; }
