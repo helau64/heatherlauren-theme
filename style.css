@@ -804,8 +804,8 @@ h3 {
   padding: 8%; }
 
 #splash-text {
-  position: relative;
-  bottom: -35%; }
+  bottom: -35%;
+  position: relative; }
 
 hr {
   background: white;
@@ -925,8 +925,10 @@ hr {
   display: none; }
 
 @media screen and (min-width: 800px) {
-  .navbar a {
-    padding: 1.5rem; }
+  .navbar {
+    padding: 2%; }
+    .navbar a {
+      padding: 1.5rem; }
 
   #about {
     padding-right: 15%; }
@@ -941,8 +943,11 @@ hr {
     width: 60%;
     margin: auto auto; } }
 @media screen and (max-width: 800px) {
-  .navbar a {
-    padding: 1.5rem; }
+  .navbar {
+    padding: 0.5%;
+    padding-top: 2%; }
+    .navbar a {
+      padding: 0.5rem; }
 
   .main-page-section {
     text-align: center;
@@ -961,9 +966,14 @@ hr {
     margin: auto auto; }
 
   .form-submit {
-    text-align: center; } }
+    text-align: center; }
+
+  #splash-text h1 {
+    font-size: 2.5rem; } }
 @media screen and (max-width: 430px) {
   .navbar {
+    padding: 0.5%;
+    padding-top: 2%;
     text-align: center; }
     .navbar a {
       padding: 0.5rem; } }

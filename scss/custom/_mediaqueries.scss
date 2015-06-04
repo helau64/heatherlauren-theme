@@ -1,6 +1,9 @@
 @media screen and (min-width: 800px) {
-	.navbar a {
-		padding: 1.5rem;
+	.navbar {
+		padding: 2%;
+		a {
+			padding: 1.5rem;
+		}
 	}
 
 	#about {
@@ -25,8 +28,12 @@
 }
 
 @media screen and (max-width: 800px) {
-	.navbar a {
-		padding: 1.5rem;
+	.navbar {
+		padding: 0.5%;
+		padding-top: 2%;
+		a {
+			padding: 0.5rem;
+		}
 	}
 	
 	.main-page-section {
@@ -52,10 +59,18 @@
 	.form-submit {
 	text-align: center;
 	}
+
+	#splash-text {
+		h1 {
+			font-size: 2.5rem;
+			}
+	}
 }
 
 @media screen and (max-width: 430px) {
 	.navbar {
+		padding: 0.5%;
+		padding-top: 2%;
 		text-align: center;
 		a {
 			padding: 0.5rem;
