@@ -2,22 +2,21 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #d35400;
-	color: #eeeeee;
-	font-family: "pt-sans";
+	background-color: #E67E22;
+	color: white;
+	font-family: "p22-underground";
 	font-weight: 700;
 	text-transform: uppercase;
-	line-height: 1.5;
-	padding: 1%;
+	padding: 1.5%;
 	border: none;
 
 
 	&:hover {
-		background-color: #a04000;
+		background-color: #CC701E;
 	}
 
 	&:active,
 	&:focus {
-		background-color: #a04000;
+		background-color: #CC701E;
 	}
 }

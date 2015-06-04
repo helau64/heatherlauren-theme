@@ -9,6 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -34,7 +35,7 @@
 			<ul>
 				<li><a id="navbar-click">ME &#9662</a>
 					<ul id="navbar-dropdown">
-						<li><a href="index.php?page_id=4/">HOME</a></li>
+						<li><a href="index.php?page_id=4">HOME</a></li>
 						<li><a href="index.php?page_id=4/#about">ABOUT</a></li>
 						<li><a href="index.php?page_id=4/#contact">CONTACT</a></li>
 						<li id="navbar-search"><a href="">SEARCH</a></li>
@@ -49,7 +50,5 @@
 		</nav><!-- #site-navigation -->
 	<!--
 	</header><!-- #masthead -->
-
-	<!--href="index.php?page_id=4"-->
 
 	<div id="content" class="site-content">

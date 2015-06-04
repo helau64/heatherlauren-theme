@@ -24,7 +24,7 @@ get_header(); ?>
 			<div class="about-section">
 				<h3>DESIGNER</h3>
 				<p>I hoard good design like an aesthete Scrooge McDuck. One day I'll probably be crushed beneath the weight of all the second-hand
-					art books on my book shelf, but for now I design for print and digital. I like bright colours, subtle patterns and I will fight you IRL over typography.</p>
+					art books on my bookshelf, but for now I design for print and digital. I like bright colours, subtle patterns and I will fight you IRL over typography.</p>
 			</div>
 			<div class="about-section">
 				<h3>DEVELOPER</h3>

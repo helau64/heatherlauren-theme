@@ -13,6 +13,15 @@
 		}
 	}
 
+	.entry-title {
+		font-size: 3rem;
+	}
+
+	.content-area {
+		width: 60%;
+		margin: auto auto;
+	}
+
 }
 
 @media screen and (max-width: 800px) {
@@ -29,6 +38,19 @@
 
 	h1 {
 		text-align: left;
+	}
+
+	.entry-title {
+		font-size: 2rem;
+	}
+
+	.content-area {
+		width: 90%;
+		margin: auto auto;
+	}
+
+	.form-submit {
+	text-align: center;
 	}
 }
 

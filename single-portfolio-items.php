@@ -23,7 +23,7 @@ get_header(); ?>
 				endif;
 			?>
 
-			<p class="tags"><?php the_tags( 'Related: ', ', ', '' ); ?></p>
+			<p class="tags"><?php the_tags( 'Related: ', '' ); ?></p>
 
 		<?php endwhile; // end of the loop. ?>
 

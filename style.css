@@ -341,19 +341,18 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  background-color: #d35400;
-  color: #eeeeee;
-  font-family: "pt-sans";
+  background-color: #E67E22;
+  color: white;
+  font-family: "p22-underground";
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.5;
-  padding: 1%;
+  padding: 1.5%;
   border: none; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    background-color: #a04000; }
+    background-color: #CC701E; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -361,7 +360,7 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    background-color: #a04000; }
+    background-color: #CC701E; }
 
 input[type="text"],
 input[type="email"],
@@ -719,7 +718,7 @@ body {
   line-height: 1.3; }
 
 p {
-  font-family: "p22-underground"; }
+  font-family: "p22-underground", sans-serif; }
 
 a {
   color: #466581;
@@ -814,7 +813,7 @@ hr {
 
 #about {
   width: 100%;
-  background: #E4F1FE;
+  background: #DAF1F7;
   font-family: "p22-underground-sc", sans-serif;
   font-weight: 900; }
 
@@ -828,7 +827,7 @@ hr {
   font-family: "p22-underground-sc", sans-serif;
   font-weight: 900; }
   #contact p {
-    font-family: "p22-underground"; }
+    font-family: "p22-underground", sans-serif; }
   #contact a {
     color: #bbbbbb;
     text-decoration: none; }
@@ -838,68 +837,92 @@ hr {
 /*--------------------------------------------------------------
 5.0 Blog
 --------------------------------------------------------------*/
-.blog-page .entry-content {
-  width: 100%; }
+.entry-title {
+  text-align: center;
+  font-family: "p22-underground-sc", sans-serif;
+  text-transform: uppercase; }
 
 .entry-meta {
   text-align: center;
-  margin-top: -2%; }
+  margin-top: -4%;
+  font-family: "p22-underground", sans-serif; }
+  .entry-meta h3 {
+    font-size: 1.2rem; }
 
 .blog-post {
-  background: #eeeeee;
-  width: 85%;
   padding: 2%;
   margin: auto auto; }
 
 .entry-content {
-  width: 75%;
   margin: auto auto;
-  font-family: "p22-underground";
+  font-size: 1.2rem;
   line-height: 1.5; }
-
-.entry-footer {
-  width: 66%;
-  margin: auto auto; }
+  .entry-content p {
+    font-family: "adobe-caslon-pro", serif; }
 
 .tags {
-  width: 66%;
-  margin: 4% auto 1% auto;
+  font-family: "p22-underground", sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
   .tags a {
-    background-color: #E67E22;
-    font-size: 0.8rem;
-    color: #eeeeee;
+    font-size: 0.9rem;
     padding: 0.6%; }
-  .tags a:hover {
-    background-color: #bf6516; }
 
+.caption {
+  font-family: "p22-underground", sans-serif !important;
+  background: #e6e6e6;
+  padding: 1%;
+  font-size: 1rem; }
+
+/*--------------------------------------------------------------
+6.0 Comments
+--------------------------------------------------------------*/
 .comments-area {
   width: 80%;
-  margin: 10% auto 2% auto; }
+  margin: 10% auto 2% auto;
+  font-family: "p22-underground", sans-serif; }
+
+.comments-title {
+  font-size: 1rem; }
+
+.comment {
+  border-bottom: 0.25rem #6C7A89 solid;
+  margin: 1%;
+  padding: 2%; }
+
+.submit {
+  font-family: "p22-underground", sans-serif; }
 
 .comment-form-comment label {
   display: none; }
 
 /*--------------------------------------------------------------
-6.0 Portfolio
+7.0 Portfolio
 --------------------------------------------------------------*/
-.portfolio-page .entry-content {
+#portfolio {
   width: 100%; }
 
+.portfolio-page .entry-content {
+  width: 90%; }
+
 .portfolio-items p {
-  width: 100%; }
+  width: 100%;
+  font-family: "p22-underground", sans-serif;
+  font-size: 1.1rem; }
 .portfolio-items .entry-meta {
   display: none; }
 .portfolio-items .tiled-gallery-caption {
   text-align: center; }
 .portfolio-items .caption {
-  background: #d4d4d4;
+  background: #e6e6e6;
   padding: 0.5rem; }
 .portfolio-items .featured {
-  border: solid 1.5rem #a2a2a2; }
+  border: solid 1.5rem #b3b3b3; }
 .portfolio-items .additional-image {
   padding: 2%; }
+
+.nav-links {
+  display: none; }
 
 @media screen and (min-width: 800px) {
   .navbar a {
@@ -909,7 +932,14 @@ hr {
     padding-right: 15%; }
 
   .about-section p {
-    padding-left: 8%; } }
+    padding-left: 8%; }
+
+  .entry-title {
+    font-size: 3rem; }
+
+  .content-area {
+    width: 60%;
+    margin: auto auto; } }
 @media screen and (max-width: 800px) {
   .navbar a {
     padding: 1.5rem; }
@@ -921,7 +951,17 @@ hr {
     line-height: 1.5; }
 
   h1 {
-    text-align: left; } }
+    text-align: left; }
+
+  .entry-title {
+    font-size: 2rem; }
+
+  .content-area {
+    width: 90%;
+    margin: auto auto; }
+
+  .form-submit {
+    text-align: center; } }
 @media screen and (max-width: 430px) {
   .navbar {
     text-align: center; }
