@@ -9,6 +9,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header>
 		<div class="entry-meta">
+			<h4>BY <a href="https://twitter.com/HeatherLauren">HEATHER LAUREN</a></h4>
 			<?php $my_date = the_date('', '<h3>', '</h3>', FALSE); echo $my_date; ?>
 		</div><!-- .entry-meta -->
 
