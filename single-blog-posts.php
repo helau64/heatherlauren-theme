@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<p class="tags"><?php the_tags( 'Related: ', ', ', '' ); ?></p>
+			<p class="tags"><?php the_tags( 'Related: ', '' ); ?></p>
 
 			
 

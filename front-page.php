@@ -11,104 +11,53 @@
  */
 
 get_header(); ?>
+		<div id="splash" class="main-page-section">
+			<div id="splash-text">
+				<h1>HI</h1>
+				<hr>
+				<h1 class="animated fadeInUp">I'M HEATHER</h1>
+			</div>
+		</div>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main main-page" role="main">
-			<div class="main-page__gen--intro">
-					<h3>Hi</h3>
-				</div>
-				<img class="main-page__gen--img" src="wp-content/themes/heatherlauren-theme/imgs/owl--circle.svg" alt="">
-				<div class="main-page__gen--intro">
-					<h3>I'm Heather</h3>
-				</div>
-				<div class="main-page__interest sameHeights">
-					<div data-key="sameHeights" class="main-page__interest--day">
-						<h4>By day</h4>
-						<i class="wp-svg-sun-3 custom-icon icon-class main-icon-interest"></i>
-						<h4>I'm an Ancient History undergrad</h4>
-					</div><!-- No Spaces
-					--><div data-key="sameHeights" class="main-page__interest--night column">
-						<h4>But by night</h4>
-						<i class="wp-svg-moon-2 custom-icon icon-class main-icon-moon"></i>
-						<h4>I'm a web design and development nerd</h4>
-					</div>
-				</div>
-				<script type="text/javascript">
-					if ('addEventListener' in window) {
-					    window.addEventListener('resize', function(){
-					        sameHeights();
-					    });
-					    window.addEventListener('load', function(){
-					        sameHeights();
-					    });
-					}
-				</script>
-				<div class="main-page__interest--intro">
-					<h4>I'm interested in:</h4>
-				</div>
-				<div class="main-page__interest--detail">
-					<ul>
-						<li class="main-page__interest--ah">Greek pottery</li>
-						<li class="main-page__interest--d">Responsive design</li>
-						<li class="main-page__interest--ah">Ancient perceptions of gender and sexuality</li>
-						<li class="main-page__interest--d">Typography</li>
-						<li class="main-page__interest--ah">The Achaemenid Empire</li>
-						<li class="main-page__interest--d">Accessibility</li>
-					</ul>
-				</div>
-				<div class="main-page__info--intro">
-					<h4>What else?</h4>
-				</div>
-				
-				<div class="main-page__info--live">
-					<img src="wp-content/themes/heatherlauren-theme/imgs/edinburgh.svg" alt="">
-					<h4>I live in Edinburgh<h4>
-				</div>
-				<div class="main-page__info--cats">
-					<h4>With three cats</h4>
-					<div class="main-page__info--cat"> 
-						<img src="wp-content/themes/heatherlauren-theme/imgs/frida.svg" alt="">
-						<h5>Frida</h5>
-						<h6>(Cat)</h6>
-					</div>
-					<div class="main-page__info--cat">
-						<img src="wp-content/themes/heatherlauren-theme/imgs/girlfriend.svg" alt="">
-						<h5>Cat</h5>
-						<h6>(Girlfriend)</h6>
-					</div>
-					<div class="main-page__info--cat">
-						<img src="wp-content/themes/heatherlauren-theme/imgs/amelia.svg" alt="">
-						<h5>Amelia</h5>
-						<h6>(Also a Cat)</h6>
-					</div>
-				</div>
-				<div class="main-page__info--conclusion">
-					<h4>
-						<script type="text/javascript" src="wp-content/themes/heatherlauren-theme/js/references.js"></script>
-						<noscript>And you have Javascript disabled</noscript>
-					</h4>
-				</div>
-				<div class="main-page__nav--intro">
-					<h4>Why not check out:</h4>
-				</div>
-				<div class="main-page__nav--list">
-					<ul>
-						<div class="main-page__nav--item">
-						<i class="wp-svg-pencil-2 custom-icon icon-class main-icon"></i>
-							<li><a href="index.php?page_id=68">My blog</a></li>
-						</div>
-						<div class="main-page__nav--item">
-							<i class="wp-svg-droplet custom-icon icon-class main-icon"></i>
-							<li><a href="index.php?page_id=10">My portfolio</a></li>
+		<div id="about" class="main-page-section">
+			<h2>ABOUT</h2>
+			<div class="about-section">
+				<h3>DESIGNER</h3>
+				<p>I hoard good design like an aesthete Scrooge McDuck. One day I'll probably be crushed beneath the weight of all the second-hand
+					art books on my bookshelf, but for now I design for print and digital. I like bright colours, subtle patterns and I will fight you IRL over typography.</p>
+			</div>
+			<div class="about-section">
+				<h3>DEVELOPER</h3>
+				<p>Specialising in front-end development, I'm probably best described as an 'over-enthusiastic amateur'. I throw myself into every new project
+				with all the energy and misguided optimism of a dog chasing a ball into the sea. I believe that the web can be beautiful without sacrificing functionality
+				or accessibility, and that it should be open to everybody.
+				</p>
 
-						</div>
-					</ul>
-				</div>
-				<div class="main-page__nav--contact">
-					<i class="wp-svg-bubble custom-icon icon-class main-icon"></i>
-					<p><a href="index.php?page_id=17">Or say hey</a></p>
-				</div>
-		</main><!-- #main -->
-	</div><!-- #primary -->
+				<p>
+					However, technology will always remain a mysterious force for most - a fact I embrace - 
+				and I work within the technology as magic movement to create great experiences and encourage a shift away from masculinist, exclusionary ideals that dominate
+				tech culture. I'm proud to have been involved in direct action supporting this, tutoring at coding courses for women, giving presentations on the difficulties faced by
+				oppressed groups in tech and encouraging open discussion about mental health issues. 
+				</p>
+			</div>
+			<div class="about-info">
+				<p>
+					I live in a perpetually messy flat in Edinburgh with two cats, my girlfriend and an incredibly gay flatmate, where
+					you'll usually find me trying to avoid working for my Ancient History degree.
+				</p>
+				<p>
+					(I also like tea, obscure GameCube games and northern soul)
+				</p>
+			</div>
+		</div>
 
-<?php get_footer(); ?>
+		<div id="contact" class="main-page-section">
+			<h2>CONTACT</h2>
+			<p>
+				Want to get in touch? You can most often find me on <a href="http://twitter.com/HeatherLauren">Twitter</a>, but 
+				I'm also on <a href="https://github.com/heatherlauren">GitHub</a>. Or, if it's important, you should probably
+				<a href="mailto:hello@heatherlauren.me">send me an email</a>.
+			</p>
+			<?php get_footer(); ?>
+		</div>
+

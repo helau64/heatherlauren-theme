@@ -157,6 +157,8 @@ add_action( 'widgets_init', 'heatherlauren_theme_widgets_init' );
 function heatherlauren_theme_scripts() {
 	wp_enqueue_style( 'heatherlauren-theme-style', get_stylesheet_uri() );
 
+    wp_enqueue_script( 'jquery' );
+
 	wp_enqueue_script( 'heatherlauren-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'heatherlauren-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
@@ -166,6 +168,16 @@ function heatherlauren_theme_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'heatherlauren_theme_scripts' );
+
+function my_scripts_method() {
+	wp_enqueue_script(
+		'custom-script',
+		get_stylesheet_directory_uri() . '/js/navbar.js',
+		array( 'jquery' )
+	);
+}
+
+add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 
 /**
  * Implement the Custom Header feature.

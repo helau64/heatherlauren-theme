@@ -22,75 +22,86 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 body {
-	background-color: $blue;
-	box-sizing: border-box;
 	color: $black;
-	font-family: $caption;
-	line-height: 1;
+	line-height: 1.3;
+}
+
+p {
+	font-family: $body;
 }
 
 a {
-	color: $orange;
+	color: lighten( $black, 20%);
 	text-decoration: none;
+	transition: color 0.05s linear;
 }
 
 a:hover {
-	color: darken( $orange, 10%);
+	color: darken( $black, 10%);
 }
 
 img {
 	max-width: 100%;
 }
 
-ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-.entry-header {
-	width: 100%;
-	text-align: center;
-	color: $white;
-	background-color: $orange;
-	font-family: $heading;
-	font-size: 1.8rem;
-	line-height: 1.2
-}
-
-.site-content {
-  background: #eeeeee;
-  width: 85%;
-  padding: 2%;
-  margin: auto auto; }
-
-.entry-content {
-  margin: 3rem auto;
-  font-family: "pt-serif", serif;
-  line-height: 1.5; }
 
 /*--------------------------------------------------------------
 2.0 Header
 --------------------------------------------------------------*/
 
-.site-header {
-	width: 75%;
-	margin: 2% auto;
-	background-color: $white;
+.navbar {
+	height: 10vh;
+	width: 100%;
+	padding: 2%;
 	font-family: $heading;
-	font-size: 2rem;
+	font-weight: 900;
+	color: white;
+	font-size: 1.5rem;
+	background: $splash;
+
+	a {
+		color: white;
+	}
+
+	a:hover {
+		color: $black;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		position: relative;
+	}
 }
 
-.main-navigation {
-	padding: 1%;
+#navbar-dropdown {
+	font-size: 1.2rem;
+	background: $splash;
+	position: absolute;
+	display: none;
+	
 	li {
-	display: inline;
-	padding-right: 0.5rem;
-	padding-left: 0.5rem;
+		padding-top: 10%;
 	}
+}
+
+#navbar-click {
+	cursor: pointer;
+}
+
+#navbar-search {
+	padding-bottom: 10%;
 }
 
 /*--------------------------------------------------------------
@@ -98,212 +109,157 @@ ul {
 --------------------------------------------------------------*/
 
 .site-footer {
-	width: 75%;
 	padding: 1%;
-	margin: 2% auto;
-	background-color: $white;
-	font-family: $caption;
 	text-align: center;
-	 a {
-	 	font-weight: 200;
-	 }
+	font-family: $heading;
+	color: $black;
+	background: white;
 }
 
-.site-info {
-	margin: auto 0;
-}
-
-.footer__nav {
-	li {
-	display: inline;
-	}
-	li:after {
-	content: " | ";
-	}
-	li:last-child:after {
-	content: "";
-	}
-}
-
-.footer__copyright {
-	margin-top: 1%;
-	display: block;
-}
 
 /*--------------------------------------------------------------
 4.0 Main Page
 --------------------------------------------------------------*/
 
-.main-page {
-	font-family: $heading;
-	text-align: center;
-	font-size: 2.5rem;
+h1 {
+	font-size: 4rem;
 }
 
-.main-page__gen--intro {
+h2 {
 	font-size: 3rem;
-	background-color: $orange;
-	color: $white;
-	line-height: 1.5;
-	margin-top: -2.5rem;
+}
+h3 {
+	font-size: 2rem;
+	color: lighten( $black, 15%);
 }
 
-.main-page__interest--day {
+.main-page-section {
 	padding: 2%;
-	display: inline-block;
-	background-color: $yellow;
-	overflow: hidden;
 }
 
-.main-page__interest--night {
-	padding: 2%;
-	display: inline-block;
-	background-color: $darkblue;
-	color: $white;
-	overflow: hidden;
+#splash {
+	width: 100%;
+	height: 90vh;
+	background: $splash;
+	font-family: $heading;
+	color: white;
+	padding: 8%;
 }
 
-.main-icon {
- font-size: 3rem;
- margin-top: 2%;
+#splash-text {
+	position: relative;
+	bottom: -35%;
 }
 
-.main-icon-interest {
- 	font-size: 4rem;
+hr {
+	background: white;
+	height: 0.2rem;
 }
 
-.main-icon-moon {
- 	font-size: 6rem;
- 	line-height: 35%;
+#about {
+	width: 100%;
+	background: #DAF1F7;
+	font-family: $heading;
+	font-weight: 900;
 }
 
-.main-page__interest--intro {
-	margin-bottom: 5%;
+.about-info {
+	margin-top: 5%;
 }
 
-.main-page__interest--ah {
-	text-align: left;
-	padding: 1% 2%;
-	margin: 0;
-	background-color: $yellow;
-}
+#contact {
+	width: 100%;
+	background: #6C7A89;
+	color: white;
+	font-family: $heading;
+	font-weight: 900;
+		p {
+			font-family: $body;
+		}
 
-.main-page__interest--d {
-	text-align: right;
-	padding: 1% 2%;
-	background-color: $darkblue;
-	color: $white;
-}
+		a {
+			color: darken( $white, 20%);
+			text-decoration: none;
+		}
 
-.main-page__info--intro {
-	margin: 5% 0%;
-}
-
-.main-page__info--live {
-	background-color: $black;
-	color: $white;
-	padding: 1% 1% 5% 1%;
-	margin-bottom: 5%;
-}
-
-.main-page__info--cats {
-	margin: 3% 0%;
-}
-
-.main-page__info--cat {
-	display: inline-block;
-	margin: 3% 0%;
-	h6 {
-		font-size: 1.8rem;
-		margin-top: -2rem;
-	}
-}
-
-.main-page__nav--intro {
-	margin-top: 8%;
-	margin-bottom: 5%;
-}
-
-.main-page__nav--list {
-	margin-top: -5%;
-}
-
-.main-page__nav--item {
-	display: inline-block;
-
-	span {
-		font-size: 4rem;
-	}
-
-	li {
-		margin: 5%;
-	}
-}
-
-.main-page__nav--contact {
-
-	p {
-		margin: 2%;
-	}
-
-	span {
-		font-size: 4rem;
-	}
+		a:hover {
+			color: darken( $white, 40%);
+		}
 }
 
 /*--------------------------------------------------------------
 5.0 Blog
 --------------------------------------------------------------*/
-.blog-page {
-	.entry-content {
-		width: 100%;
-	}
-}
-.entry-meta {
-	font-family: $caption;
+
+.entry-title {
 	text-align: center;
-	margin-top: -2%;
+	font-family: $heading;
+	text-transform: uppercase;
+}
+
+.entry-meta {
+	text-align: center;
+	margin-top: -4%;
+	font-family: $body;
+	h3 {
+		font-size: 1.2rem;
+	}
 }
 
 .blog-post {
-	background: $white;
-	width: 85%;
 	padding: 2%;
 	margin: auto auto;
+
 }
 
 .entry-content {
-	width: 75%;
 	margin: auto auto;
-	font-family: $body;
+	font-size: 1.2rem;
 	line-height: 1.5;
-}
-
-.entry-footer {
-	width: 66%;
-	margin: auto auto;
-
+	p {
+		font-family: $longform;
+	}
 }
 
 .tags {
-	width: 66%;
-	margin: 4% auto 1% auto;
+	font-family: $body;
 	font-weight: 700;
 	text-transform: uppercase;
 	a {
-		background-color: $orange;
-		font-size: 0.8rem;
-		color: $white;
+		font-size: 0.9rem;
 		padding: 0.6%;
 	}
-	a:hover {
-	background-color: darken( $orange, 10%);
-	}
 }
+
+.caption {
+	font-family: $body !important;
+	background: darken(white, 10%);
+	padding: 1%;
+	font-size: 1rem;
+}
+
+/*--------------------------------------------------------------
+6.0 Comments
+--------------------------------------------------------------*/
 
 .comments-area {
 	width: 80%;
 	margin: 10% auto 2% auto;
+	font-family: $body;
+}
+
+.comments-title {
+	font-size: 1rem;
+}
+
+.comment {
+	border-bottom: 0.25rem #6C7A89 solid;
+	margin: 1%;
+	padding: 2%;
+}
+
+.submit {
+	font-family: $body;
 }
 
 .comment-form-comment {
@@ -313,16 +269,24 @@ ul {
 }
 
 /*--------------------------------------------------------------
-6.0 Portfolio
+7.0 Portfolio
 --------------------------------------------------------------*/
+
+#portfolio {
+	width: 100%;
+}
+
 .portfolio-page {
 	.entry-content {
-	width: 100%;
+	width: 90%;
 	}
 }
+
 .portfolio-items {
 	p {
 		width: 100%;
+		font-family: $body;
+		font-size: 1.1rem;
 	}
 	.entry-meta {
 		display: none;
@@ -331,48 +295,19 @@ ul {
 		text-align: center;
 	}
 	.caption {
-		font-family: $caption;
-		background: darken( $white, 10%);
+		background: darken( white, 10%);
 		padding: 0.5rem;
 	}
 	.featured {
-		border: solid 1.5rem darken( $white, 30%);
+		border: solid 1.5rem darken( white, 30%);
 	}
 	.additional-image {
 		padding: 2%;
 	}
 }
 
-/*--------------------------------------------------------------
-7.0 Contact Page
---------------------------------------------------------------*/
-.contact-page {
-	font-family: $heading;
-	font-size: 2rem;
-	text-align: center;
-}
-
-.contact-header {
-	background-color: $orange;
-	color: $white;
-	line-height: 1.2;
-	font-size: 1.8rem;
-}
-
-
-.contact-page__info {
-	a {
-		display: block;
-		margin-top: 1%;
-	}
-}
-
-.contact-page__icon {
-	font-size: 4rem;
-}
-
-.contact-icon {
-	font-size: 4rem;
+.nav-links {
+	display: none;
 }
 
 
