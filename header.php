@@ -37,7 +37,7 @@
 					<ul id="navbar-dropdown">
 						<li><a href="index.php?page_id=4">HOME</a></li>
 						<li><a href="index.php?page_id=4/#about">ABOUT</a></li>
-						<li id="navbar-portfolio"><a href="index.php?page_id=4/#contact">CONTACT</a></li>
+						<li id="navbar-contact"><a href="index.php?page_id=4/#contact">CONTACT</a></li>
 					</ul>
 				</li>
 				<li><a href="index.php?page_id=68">BLOG</a></li>
