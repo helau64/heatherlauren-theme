@@ -1,9 +1,8 @@
 <?php
-/**
- * The template for displaying all single posts.
- *
- * @package heatherlauren-theme
- */
+/*
+Template Name: Search Page
+*/
+?>
 
 get_header(); ?>
 
