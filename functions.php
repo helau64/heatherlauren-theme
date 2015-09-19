@@ -132,6 +132,13 @@ function blog_posts_init() {
 }
 add_action( 'init', 'blog_posts_init' );
 
+function remove_menus(){
+  
+  remove_menu_page( 'edit.php' );                   //Posts
+  remove_menu_page( 'edit.php?post_type=page' );    //Pages
+  
+}
+add_action( 'admin_menu', 'remove_menus' );
 
 /**
  * Register widget area.
