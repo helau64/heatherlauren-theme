@@ -132,11 +132,6 @@ function blog_posts_init() {
 }
 add_action( 'init', 'blog_posts_init' );
 
-function remove_menus(){
-  remove_menu_page( 'edit.php' );                   //Posts
-}
-add_action( 'admin_menu', 'remove_menus' );
-
 
 /**
  * Register widget area.
@@ -176,8 +171,13 @@ add_action( 'wp_enqueue_scripts', 'heatherlauren_theme_scripts' );
 
 function my_scripts_method() {
 	wp_enqueue_script(
-		'custom-script',
+		'navbar',
 		get_stylesheet_directory_uri() . '/js/navbar.js',
+		array( 'jquery' )
+	);
+	wp_enqueue_script(
+		'searchbar',
+		get_stylesheet_directory_uri() . '/js/searchbar.js',
 		array( 'jquery' )
 	);
 }

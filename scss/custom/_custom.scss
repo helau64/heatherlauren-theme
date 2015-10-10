@@ -9,8 +9,9 @@
 3.0 Footer
 4.0 Main Page
 5.0 Blog
-6.0 Portfolio
-7.0 Contact Page
+6.0 Comments
+7.0 Portfolio
+8.0 Sketchbook
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -50,6 +51,58 @@ img {
 	max-width: 100%;
 }
 
+.page-intro {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: -1.5rem;
+	p {
+		font-size: 1.2rem;
+		font-family: $heading;
+	}
+}
+
+.archive-button {
+	background-color: #22313f;
+	color: white;
+	padding: 0.8rem;
+	height: 3rem;
+	font-weight: 700;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	border: none;
+
+	&:hover {
+		background-color: #2F3E4C;
+	}
+}
+
+.search-button {
+	background-color: #F7F7F7;
+	color: #223134;
+	padding: 0.8rem;
+	height: 3rem;
+	font-weight: 700;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	border: none;
+
+	&:hover {
+		background-color: #E6E6E6;
+	}
+}
+
+.search-field {
+	text-align: center;
+	font-family: $body !important;
+	text-transform: uppercase !important;
+	border: none;
+}
+
+#search-bar {
+	display: block;
+	margin-top: 1rem;
+}
 
 /*--------------------------------------------------------------
 2.0 Header
@@ -85,7 +138,7 @@ img {
 	}
 }
 
-#navbar-dropdown {
+.navbar-dropdown, .navbar-dropdown-portfolio {
 	font-size: 1.2rem;
 	background: $splash;
 	position: absolute;
@@ -96,7 +149,7 @@ img {
 	}
 }
 
-#navbar-click {
+.navbar-click, .navbar-click-portfolio {
 	cursor: pointer;
 }
 
@@ -310,5 +363,18 @@ hr {
 	display: none;
 }
 
+/*--------------------------------------------------------------
+8.0 Sketchbook
+--------------------------------------------------------------*/
+.sketchbook-main {
+	h1 {
+		font-size: 2.5rem;
+	}
+}
+
+.type-post {
+	border: #6C7A89 solid 1rem;
+	padding: 1rem;
+}
 
 @import "mediaqueries";

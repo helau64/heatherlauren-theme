@@ -33,16 +33,16 @@
 	-->
 	<div class="navbar">
 			<ul>
-				<li><a id="navbar-click">ME &#9662</a>
-					<ul id="navbar-dropdown">
+				<li><a class="navbar-click">ME &#9662</a>
+					<ul class="navbar-dropdown">
 						<li><a href="index.php?page_id=4">HOME</a></li>
 						<li><a href="index.php?page_id=4/#about">ABOUT</a></li>
-						<li id="navbar-contact"><a href="index.php?page_id=4/#contact">CONTACT</a></li>
+						<li class="navbar-contact"><a href="index.php?page_id=4/#contact">CONTACT</a></li>
 					</ul>
 				</li>
 				<li><a href="index.php?page_id=68">BLOG</a></li>
-				<li><a id="navbar-click">WORK &#9662</a>
-					<ul id="navbar-dropdown">
+				<li><a class="navbar-click-portfolio">WORK &#9662</a>
+					<ul class="navbar-dropdown-portfolio">
 						<li><a href="index.php?page_id=553">SKETCHBOOK</a></li>
 						<li><a href="index.php?page_id=10">PORTFOLIO</a></li>
 					</ul>
