@@ -5,8 +5,10 @@ input[type="password"],
 input[type="search"],
 textarea {
 	color: $color__text-input;
-	border: 1px solid $color__border-input;
+	/* border: 1px solid $color__border-input;
 	border-radius: 3px;
+	*/
+
 
 	&:focus {
 		color: $color__text-input-focus;

@@ -341,26 +341,19 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  background-color: #E67E22;
-  color: white;
+  background-color: #F7F7F7;
+  color: #22313f;
   font-family: "p22-underground";
   font-weight: 700;
   text-transform: uppercase;
-  padding: 1.5%;
-  border: none; }
+  padding: 0.8rem;
+  border: none;
+  height: 3rem; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    background-color: #CC701E; }
-  button:active, button:focus,
-  input[type="button"]:active,
-  input[type="button"]:focus,
-  input[type="reset"]:active,
-  input[type="reset"]:focus,
-  input[type="submit"]:active,
-  input[type="submit"]:focus {
-    background-color: #CC701E; }
+    background-color: #E6E6E6; }
 
 input[type="text"],
 input[type="email"],
@@ -369,8 +362,9 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px; }
+  /* border: 1px solid $color__border-input;
+  border-radius: 3px;
+  */ }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -698,8 +692,11 @@ object {
 3.0 Footer
 4.0 Main Page
 5.0 Blog
-6.0 Portfolio
-7.0 Contact Page
+6.0 Comments
+7.0 Portfolio
+8.0 Sketchbook
+9.0 Page Intro
+10.0 Archives
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 1.0 General
@@ -755,19 +752,18 @@ img {
     display: inline-block;
     position: relative; }
 
-#navbar-dropdown {
+.navbar-dropdown, .navbar-dropdown-portfolio {
   font-size: 1.2rem;
   background: #E67E22;
   position: absolute;
   display: none; }
-  #navbar-dropdown li {
+  .navbar-dropdown li, .navbar-dropdown-portfolio li {
     padding-top: 10%; }
+  .navbar-dropdown li:last-child, .navbar-dropdown-portfolio li:last-child {
+    padding-bottom: 5%; }
 
-#navbar-click {
+.navbar-click, .navbar-click-portfolio {
   cursor: pointer; }
-
-#navbar-contact {
-  padding-bottom: 10%; }
 
 /*--------------------------------------------------------------
 3.0 Footer
@@ -837,7 +833,7 @@ hr {
 /*--------------------------------------------------------------
 5.0 Blog
 --------------------------------------------------------------*/
-.entry-title {
+.entry-title, .page-title {
   text-align: center;
   font-family: "p22-underground-sc", sans-serif;
   text-transform: uppercase; }
@@ -847,7 +843,8 @@ hr {
   margin-top: -4%;
   font-family: "p22-underground", sans-serif; }
   .entry-meta h3 {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    margin-top: -0.8rem; }
 
 .blog-post {
   padding: 2%;
@@ -924,6 +921,82 @@ hr {
 .nav-links {
   display: none; }
 
+/*--------------------------------------------------------------
+8.0 Sketchbook
+--------------------------------------------------------------*/
+.sketchbook-main h1 {
+  font-size: 2.5rem; }
+.sketchbook-main .type-post {
+  background-color: #FAFAFA;
+  padding: 0.5rem 2rem;
+  margin: 1rem; }
+
+/*--------------------------------------------------------------
+9.0 Page Intro
+--------------------------------------------------------------*/
+.page-intro {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: -1.5rem; }
+  .page-intro p {
+    font-size: 1.2rem;
+    font-family: "p22-underground-sc", sans-serif; }
+
+.button-container {
+  margin-top: -1rem; }
+
+.archive-button {
+  background-color: #22313f;
+  color: white;
+  padding: 0.8rem;
+  height: 3rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  border: none;
+  width: 8rem; }
+  .archive-button:hover {
+    background-color: #2F3E4C; }
+
+.search-button {
+  background-color: #F7F7F7;
+  color: #223134;
+  padding: 0.8rem;
+  height: 3rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  /* margin-left: 1rem; */
+  border: none;
+  width: 8rem; }
+  .search-button:hover {
+    background-color: #E6E6E6; }
+
+.search-field {
+  text-align: center;
+  font-family: "p22-underground", sans-serif !important;
+  text-transform: uppercase !important;
+  border: none; }
+
+#search-bar {
+  display: block;
+  margin-top: 1rem; }
+
+/*--------------------------------------------------------------
+9.0 Archives
+--------------------------------------------------------------*/
+.archive-list {
+  font-family: "p22-underground", sans-serif;
+  margin-top: -1rem; }
+
+.archive-list:last-child {
+  margin-bottom: 3rem; }
+
+.archive-title {
+  font-family: "p22-underground-sc", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem; }
+
 @media screen and (min-width: 800px) {
   .navbar {
     padding: 2%; }
@@ -936,7 +1009,7 @@ hr {
   .about-section p {
     padding-left: 8%; }
 
-  .entry-title {
+  .entry-title, .page-title {
     font-size: 3rem; }
 
   .content-area {
@@ -958,7 +1031,7 @@ hr {
   h1 {
     text-align: left; }
 
-  .entry-title {
+  .entry-title, .page-title {
     font-size: 2rem; }
 
   .content-area {

@@ -111,6 +111,7 @@ function blog_posts_init() {
     $args = array(
       'label' => 'Blog Posts',
         'public' => true,
+        'has_archive' => true,
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
@@ -178,8 +179,18 @@ add_action( 'wp_enqueue_scripts', 'heatherlauren_theme_scripts' );
 
 function my_scripts_method() {
 	wp_enqueue_script(
-		'custom-script',
+		'navbar',
 		get_stylesheet_directory_uri() . '/js/navbar.js',
+		array( 'jquery' )
+	);
+	wp_enqueue_script(
+		'navbar-portfolio',
+		get_stylesheet_directory_uri() . '/js/navbar-portfolio.js',
+		array( 'jquery' )
+	);
+	wp_enqueue_script(
+		'searchbar',
+		get_stylesheet_directory_uri() . '/js/searchbar.js',
 		array( 'jquery' )
 	);
 }
