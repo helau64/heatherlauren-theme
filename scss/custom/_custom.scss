@@ -205,6 +205,7 @@ hr {
 	font-family: $body;
 	h3 {
 		font-size: 1.2rem;
+		margin-top: -0.8rem;
 	}
 }
 
@@ -319,11 +320,11 @@ hr {
 	h1 {
 		font-size: 2.5rem;
 	}
-}
-
-.type-post {
+	.type-post {
 	background-color: #FAFAFA;
-	padding: 1rem;
+	padding: 0.5rem 2rem;
+	margin: 1rem;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -339,6 +340,10 @@ hr {
 		font-size: 1.2rem;
 		font-family: $heading;
 	}
+}
+
+.button-container {
+	margin-top: -1rem;
 }
 
 .archive-button {
@@ -364,7 +369,7 @@ hr {
 	height: 3rem;
 	font-weight: 700;
 	margin-top: 0.5rem;
-	margin-left: 1rem;
+	/* margin-left: 1rem; */
 	border: none;
 	width: 8rem;
 

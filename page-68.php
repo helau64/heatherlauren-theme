@@ -25,7 +25,7 @@ get_header(); ?>
 						</p>
 						<div class="button-container">
 							<input type="submit" class="search-submit search-button" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
-							<a href="index.php?page_id=560"><button class="archive-button">ARCHIVES</button></a>
+							<!-- <a href="index.php?page_id=560"><button class="archive-button">ARCHIVES</button></a> -->
 						</div>
 						<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
 							<label id="search-bar">

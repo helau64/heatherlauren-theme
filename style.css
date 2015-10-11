@@ -843,7 +843,8 @@ hr {
   margin-top: -4%;
   font-family: "p22-underground", sans-serif; }
   .entry-meta h3 {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    margin-top: -0.8rem; }
 
 .blog-post {
   padding: 2%;
@@ -925,10 +926,10 @@ hr {
 --------------------------------------------------------------*/
 .sketchbook-main h1 {
   font-size: 2.5rem; }
-
-.type-post {
+.sketchbook-main .type-post {
   background-color: #FAFAFA;
-  padding: 1rem; }
+  padding: 0.5rem 2rem;
+  margin: 1rem; }
 
 /*--------------------------------------------------------------
 9.0 Page Intro
@@ -941,6 +942,9 @@ hr {
   .page-intro p {
     font-size: 1.2rem;
     font-family: "p22-underground-sc", sans-serif; }
+
+.button-container {
+  margin-top: -1rem; }
 
 .archive-button {
   background-color: #22313f;
@@ -962,7 +966,7 @@ hr {
   height: 3rem;
   font-weight: 700;
   margin-top: 0.5rem;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   border: none;
   width: 8rem; }
   .search-button:hover {
