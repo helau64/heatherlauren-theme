@@ -133,13 +133,12 @@ function blog_posts_init() {
 }
 add_action( 'init', 'blog_posts_init' );
 
-function remove_menus(){
-  
-  remove_menu_page( 'edit.php' );                   //Posts
-  remove_menu_page( 'edit.php?post_type=page' );    //Pages
-  
+function menu_item_text( $menu ) {
+     $menu = str_ireplace( 'Posts', 'Sketchbook Posts', $menu );
+     return $menu;
 }
-add_action( 'admin_menu', 'remove_menus' );
+add_filter('gettext', 'menu_item_text');
+add_filter('ngettext', 'menu_item_text');
 
 /**
  * Register widget area.
