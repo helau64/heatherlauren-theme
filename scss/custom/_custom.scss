@@ -12,6 +12,8 @@
 6.0 Comments
 7.0 Portfolio
 8.0 Sketchbook
+9.0 Page Intro
+10.0 Archives
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -49,59 +51,6 @@ a:hover {
 
 img {
 	max-width: 100%;
-}
-
-.page-intro {
-	width: 100%;
-	text-align: center;
-	margin-bottom: 2rem;
-	margin-top: -1.5rem;
-	p {
-		font-size: 1.2rem;
-		font-family: $heading;
-	}
-}
-
-.archive-button {
-	background-color: #22313f;
-	color: white;
-	padding: 0.8rem;
-	height: 3rem;
-	font-weight: 700;
-	margin-top: 0.5rem;
-	margin-left: 1rem;
-	border: none;
-
-	&:hover {
-		background-color: #2F3E4C;
-	}
-}
-
-.search-button {
-	background-color: #F7F7F7;
-	color: #223134;
-	padding: 0.8rem;
-	height: 3rem;
-	font-weight: 700;
-	margin-top: 0.5rem;
-	margin-left: 1rem;
-	border: none;
-
-	&:hover {
-		background-color: #E6E6E6;
-	}
-}
-
-.search-field {
-	text-align: center;
-	font-family: $body !important;
-	text-transform: uppercase !important;
-	border: none;
-}
-
-#search-bar {
-	display: block;
-	margin-top: 1rem;
 }
 
 /*--------------------------------------------------------------
@@ -147,14 +96,14 @@ img {
 	li {
 		padding-top: 10%;
 	}
+
+	li:last-child {
+		padding-bottom: 5%;
+	}
 }
 
 .navbar-click, .navbar-click-portfolio {
 	cursor: pointer;
-}
-
-#navbar-contact {
-	padding-bottom: 10%;
 }
 
 /*--------------------------------------------------------------
@@ -244,7 +193,7 @@ hr {
 5.0 Blog
 --------------------------------------------------------------*/
 
-.entry-title {
+.entry-title, .page-title {
 	text-align: center;
 	font-family: $heading;
 	text-transform: uppercase;
@@ -373,8 +322,77 @@ hr {
 }
 
 .type-post {
-	border: #6C7A89 solid 1rem;
+	background-color: #FAFAFA;
 	padding: 1rem;
+}
+
+/*--------------------------------------------------------------
+9.0 Page Intro
+--------------------------------------------------------------*/
+
+.page-intro {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: -1.5rem;
+	p {
+		font-size: 1.2rem;
+		font-family: $heading;
+	}
+}
+
+.archive-button {
+	background-color: #22313f;
+	color: white;
+	padding: 0.8rem;
+	height: 3rem;
+	font-weight: 700;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	border: none;
+
+	&:hover {
+		background-color: #2F3E4C;
+	}
+}
+
+.search-button {
+	background-color: #F7F7F7;
+	color: #223134;
+	padding: 0.8rem;
+	height: 3rem;
+	font-weight: 700;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	border: none;
+
+	&:hover {
+		background-color: #E6E6E6;
+	}
+}
+
+.search-field {
+	text-align: center;
+	font-family: $body !important;
+	text-transform: uppercase !important;
+	border: none;
+}
+
+#search-bar {
+	display: block;
+	margin-top: 1rem;
+}
+
+/*--------------------------------------------------------------
+9.0 Archives
+--------------------------------------------------------------*/
+#archive-list {
+	list-style: none;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0.2rem 0;
+	padding: 0.2rem 0;
 }
 
 @import "mediaqueries";

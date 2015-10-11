@@ -348,8 +348,7 @@ input[type="submit"] {
   text-transform: uppercase;
   padding: 0.8rem;
   border: none;
-  height: 3rem;
-  width: 8rem; }
+  height: 3rem; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
@@ -704,6 +703,8 @@ object {
 6.0 Comments
 7.0 Portfolio
 8.0 Sketchbook
+9.0 Page Intro
+10.0 Archives
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 1.0 General
@@ -734,49 +735,6 @@ a:hover {
 
 img {
   max-width: 100%; }
-
-.page-intro {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: -1.5rem; }
-  .page-intro p {
-    font-size: 1.2rem;
-    font-family: "p22-underground-sc", sans-serif; }
-
-.archive-button {
-  background-color: #22313f;
-  color: white;
-  padding: 0.8rem;
-  height: 3rem;
-  font-weight: 700;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
-  border: none; }
-  .archive-button:hover {
-    background-color: #2F3E4C; }
-
-.search-button {
-  background-color: #F7F7F7;
-  color: #223134;
-  padding: 0.8rem;
-  height: 3rem;
-  font-weight: 700;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
-  border: none; }
-  .search-button:hover {
-    background-color: #E6E6E6; }
-
-.search-field {
-  text-align: center;
-  font-family: "p22-underground", sans-serif !important;
-  text-transform: uppercase !important;
-  border: none; }
-
-#search-bar {
-  display: block;
-  margin-top: 1rem; }
 
 /*--------------------------------------------------------------
 2.0 Header
@@ -809,12 +767,11 @@ img {
   display: none; }
   .navbar-dropdown li, .navbar-dropdown-portfolio li {
     padding-top: 10%; }
+  .navbar-dropdown li:last-child, .navbar-dropdown-portfolio li:last-child {
+    padding-bottom: 5%; }
 
 .navbar-click, .navbar-click-portfolio {
   cursor: pointer; }
-
-#navbar-contact {
-  padding-bottom: 10%; }
 
 /*--------------------------------------------------------------
 3.0 Footer
@@ -884,7 +841,7 @@ hr {
 /*--------------------------------------------------------------
 5.0 Blog
 --------------------------------------------------------------*/
-.entry-title {
+.entry-title, .page-title {
   text-align: center;
   font-family: "p22-underground-sc", sans-serif;
   text-transform: uppercase; }
@@ -978,8 +935,65 @@ hr {
   font-size: 2.5rem; }
 
 .type-post {
-  border: #6C7A89 solid 1rem;
+  background-color: #FAFAFA;
   padding: 1rem; }
+
+/*--------------------------------------------------------------
+9.0 Page Intro
+--------------------------------------------------------------*/
+.page-intro {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: -1.5rem; }
+  .page-intro p {
+    font-size: 1.2rem;
+    font-family: "p22-underground-sc", sans-serif; }
+
+.archive-button {
+  background-color: #22313f;
+  color: white;
+  padding: 0.8rem;
+  height: 3rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  border: none; }
+  .archive-button:hover {
+    background-color: #2F3E4C; }
+
+.search-button {
+  background-color: #F7F7F7;
+  color: #223134;
+  padding: 0.8rem;
+  height: 3rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  border: none; }
+  .search-button:hover {
+    background-color: #E6E6E6; }
+
+.search-field {
+  text-align: center;
+  font-family: "p22-underground", sans-serif !important;
+  text-transform: uppercase !important;
+  border: none; }
+
+#search-bar {
+  display: block;
+  margin-top: 1rem; }
+
+/*--------------------------------------------------------------
+9.0 Archives
+--------------------------------------------------------------*/
+#archive-list {
+  list-style: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.2rem 0;
+  padding: 0.2rem 0; }
 
 @media screen and (min-width: 800px) {
   .navbar {
@@ -993,7 +1007,7 @@ hr {
   .about-section p {
     padding-left: 8%; }
 
-  .entry-title {
+  .entry-title, .page-title {
     font-size: 3rem; }
 
   .content-area {
@@ -1015,7 +1029,7 @@ hr {
   h1 {
     text-align: left; }
 
-  .entry-title {
+  .entry-title, .page-title {
     font-size: 2rem; }
 
   .content-area {

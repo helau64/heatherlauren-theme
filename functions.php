@@ -111,6 +111,7 @@ function blog_posts_init() {
     $args = array(
       'label' => 'Blog Posts',
         'public' => true,
+        'has_archive' => true,
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
@@ -131,7 +132,6 @@ function blog_posts_init() {
     register_post_type( 'blog-posts', $args );
 }
 add_action( 'init', 'blog_posts_init' );
-
 
 /**
  * Register widget area.
