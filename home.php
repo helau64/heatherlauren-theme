@@ -13,8 +13,11 @@
 get_header(); ?>
 	<h1 class="entry-title">SKETCHBOOK</h1>
 	<div class="page-intro">
+		<p>
+			Work-in-progress, doodles and other odds-and-ends
+		</p>
 		<div class="button-container">
-			<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
+			<input type="submit" class="search-submit search-button" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
 			<a href="index.php?page_id=560"><button class="archive-button">ARCHIVES</button></a>
 		</div>
 		<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">

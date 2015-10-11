@@ -13,24 +13,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php if ( have_posts() ) : ?>
+			<?php while ( have_posts() ) : the_post(); ?>
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+				<?php get_template_part( 'content', 'archive' ); ?>
 
-			<?php the_post(); ?>
-		
-		<?php get_search_form(); ?>
-		
-		<ul id="archive-list">
-			<?php wp_get_archives('type=monthly'); ?>
-		</ul>
 
-		<?php endif; ?>
+			<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -388,13 +388,19 @@ hr {
 /*--------------------------------------------------------------
 9.0 Archives
 --------------------------------------------------------------*/
-#archive-list {
-	list-style: none;
-	font-size: 1.5rem;
+.archive-list {
+	font-family: $body;
+	margin-top: -1rem;
+}
+
+.archive-list:last-child {
+	margin-bottom: 3rem;
+}
+
+.archive-title {
+	font-family: $heading;
 	text-transform: uppercase;
-	text-align: center;
-	margin: 0.2rem 0;
-	padding: 0.2rem 0;
+	font-size: 2rem;
 }
 
 @import "mediaqueries";
