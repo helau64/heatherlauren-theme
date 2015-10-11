@@ -176,6 +176,11 @@ function my_scripts_method() {
 		array( 'jquery' )
 	);
 	wp_enqueue_script(
+		'navbar-portfolio',
+		get_stylesheet_directory_uri() . '/js/navbar-portfolio.js',
+		array( 'jquery' )
+	);
+	wp_enqueue_script(
 		'searchbar',
 		get_stylesheet_directory_uri() . '/js/searchbar.js',
 		array( 'jquery' )

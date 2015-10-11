@@ -24,7 +24,7 @@ get_header(); ?>
 							Where design, activism and nerdery meet up to bitch about their exes
 						</p>
 						<div class="button-container">
-							<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
+							<input type="submit" class="search-submit search-button" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
 							<a href="index.php?page_id=560"><button class="archive-button">ARCHIVES</button></a>
 						</div>
 						<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">

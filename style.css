@@ -958,7 +958,8 @@ hr {
   font-weight: 700;
   margin-top: 0.5rem;
   margin-left: 1rem;
-  border: none; }
+  border: none;
+  width: 8rem; }
   .archive-button:hover {
     background-color: #2F3E4C; }
 
@@ -970,7 +971,8 @@ hr {
   font-weight: 700;
   margin-top: 0.5rem;
   margin-left: 1rem;
-  border: none; }
+  border: none;
+  width: 8rem; }
   .search-button:hover {
     background-color: #E6E6E6; }
 
