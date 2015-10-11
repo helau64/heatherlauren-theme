@@ -133,13 +133,6 @@ function blog_posts_init() {
 }
 add_action( 'init', 'blog_posts_init' );
 
-function menu_item_text( $menu ) {
-     $menu = str_ireplace( 'Posts', 'Sketchbook Posts', $menu );
-     return $menu;
-}
-add_filter('gettext', 'menu_item_text');
-add_filter('ngettext', 'menu_item_text');
-
 /**
  * Register widget area.
  *
