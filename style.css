@@ -856,6 +856,8 @@ hr {
   line-height: 1.5; }
   .entry-content p {
     font-family: "adobe-caslon-pro", serif; }
+  .entry-content ol {
+    font-family: "adobe-caslon-pro", serif; }
 
 .tags {
   font-family: "p22-underground", sans-serif;
