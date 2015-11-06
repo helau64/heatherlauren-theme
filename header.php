@@ -33,26 +33,26 @@
 	-->
 	<div class="navbar">
 			<ul>
-				<li><a class="navbar-click">ME &#9662</a>
+				<li><a class="navbar-click" style="text-transform:uppercase;">Me &#9662</a>
 					<ul class="navbar-dropdown">
-						<li><a href="index.php?page_id=4">HOME</a></li>
-						<li><a href="index.php?page_id=4/#about">ABOUT</a></li>
-						<li class="navbar-contact"><a href="index.php?page_id=4/#contact">CONTACT</a></li>
+						<li><a href="index.php?page_id=4" style="text-transform:uppercase;">Home</a></li>
+						<li><a href="index.php?page_id=4/#about" style="text-transform:uppercase;">About</a></li>
+						<li class="navbar-contact"><a href="index.php?page_id=4/#contact" style="text-transform:uppercase;">Contact</a></li>
 					</ul>
 				</li>
-				<li><a href="index.php?page_id=68">BLOG</a></li>
-				<li><a class="navbar-click-portfolio">WORK &#9662</a>
+				<li><a href="index.php?page_id=68" style="text-transform:uppercase;">Blog</a></li>
+				<li><a class="navbar-click-portfolio" style="text-transform:uppercase;">Work &#9662</a>
 					<ul class="navbar-dropdown-portfolio">
-						<li><a href="index.php?page_id=820">SKETCHBOOK</a></li>
-						<li><a href="index.php?page_id=10">PORTFOLIO</a></li>
+						<li><a href="index.php?page_id=820" style="text-transform:uppercase;">Sketchbook</a></li>
+						<li><a href="index.php?page_id=10" style="text-transform:uppercase;">Portfolio</a></li>
 					</ul>
 				</li>
 			</ul>
 	</div>
 
 	<!--
-		</nav><!-- #site-navigation -->
+		</nav><!- - #site-navigation -->
 	<!--
-	</header><!-- #masthead -->
+	</header><!- - #masthead -->
 
 	<div id="content" class="site-content">
