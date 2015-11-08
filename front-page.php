@@ -34,8 +34,7 @@ get_header(); ?>
 				</p>
 
 				<p>
-					However, technology will always remain a mysterious force for most - a fact I embrace - 
-				and I work within the technology as magic movement to create great experiences and encourage a shift away from masculinist, exclusionary ideals that dominate
+					However, technology remains a mysterious force for most, and I work within the technology as magic movement to create great experiences and encourage a shift away from masculinist, exclusionary ideals that dominate
 				tech culture. I'm proud to have been involved in direct action supporting this, tutoring at coding courses for women, giving presentations on the difficulties faced by
 				oppressed groups in tech and encouraging open discussion of mental health in the industry. 
 				</p>
