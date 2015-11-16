@@ -159,10 +159,12 @@ hr {
 }
 
 #about {
-	width: 100%;
 	background: #DAF1F7;
 	font-family: $heading;
 	font-weight: 900;
+	p {
+		width: 90%;
+	}
 }
 
 .about-info {

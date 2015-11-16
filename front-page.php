@@ -23,29 +23,52 @@ get_header(); ?>
 			<h2 style="text-transform:uppercase;">About</h2>
 			<div class="about-section">
 				<h3 style="text-transform:uppercase;">Designer</h3>
-				<p>I hoard good design like an aesthete Scrooge McDuck. One day I'll probably be crushed beneath the weight of all the second-hand
-					art books on my bookshelf, but for now I design for print and digital. I like bright colours, subtle patterns and I will fight you IRL over typography.</p>
+				<p>
+					Whether I’m creating work for print or the web, I work primarily as a digital artist.
+					While I use modern software and techniques, I find the most inspiration in the past,
+					from archaic Greek pottery to twentieth century propaganda art. 
+				</p>
 			</div>
 			<div class="about-section">
 				<h3 style="text-transform:uppercase;">Developer</h3>
-				<p>Specialising in front-end development, I'm probably best described as an 'over-enthusiastic amateur'. I throw myself into every new project
-				with all the energy and misguided optimism of a dog chasing a ball into the sea. I believe that the web can be beautiful without sacrificing functionality
-				or accessibility, and that it should be open to everybody.
-				</p>
-
 				<p>
-					However, technology remains a mysterious force for most, and I work within the technology as magic movement to create great experiences and encourage a shift away from masculinist, exclusionary ideals that dominate
-				tech culture. I'm proud to have been involved in direct action supporting this, tutoring at coding courses for women, giving presentations on the difficulties faced by
-				oppressed groups in tech and encouraging open discussion of mental health in the industry. 
+					Specialising in front-end development, I'm probably best described as an
+					'over-enthusiastic amateur'. I’m most experienced with HTML, Sass and 
+					Wordpress development, but I’m constantly learning something new. I always 
+					work with two main principles in mind: beauty and accessibility. 
+					I strongly believe that any project can look fantastic <em>and</em> provide a 
+					great experience for all users.
 				</p>
 			</div>
+			<div class="about-section">
+				<h3 style="text-transform:uppercase;">Writer</h3>
+				<p>
+					I love to write about what I find interesting - which is everything from 
+					game design to vegetarian and vegan cooking. I’ve written for a number of 
+					feminist and student publications over the years, but you can mostly find my 
+					work on my <a href="index.php?page_id=68">blog</a>.
+				</p>
+			</div>
+			<div class="about-section">
+				<h3 style="text-transform:uppercase;">Activist</h3>
+				<p>
+					I’m a fierce and committed activist who works online and in Edinburgh,
+					primarily on combating the criminalisation and stigma of sex workers,
+					queer (particularly trans) rights and opposing oppressive and exclusionary
+					activism. However, I’m especially passionate about dismantling the white,
+					straight, cis and male hegemony that dominates the tech world, an aim that
+					much of my work - in all fields - is centred on.
+				</p>
+			</div>
+
+
 			<div class="about-info">
 				<p>
-					I live in a perpetually messy flat in Edinburgh with two cats, my girlfriend and an incredibly gay flatmate, where
-					you'll usually find me trying to avoid working for my Ancient History degree.
+					I live in a perpetually messy flat in Edinburgh with my girlfriend and our two cats,
+					where you'll usually find me trying to avoid working for my Ancient History degree.
 				</p>
 				<p>
-					(I also like tea, obscure GameCube games and northern soul)
+					(I also like tea, indie comics and classic funk and soul)
 				</p>
 			</div>
 		</div>

@@ -808,10 +808,11 @@ hr {
   height: 0.2rem; }
 
 #about {
-  width: 100%;
   background: #DAF1F7;
   font-family: "p22-underground-sc", sans-serif;
   font-weight: 900; }
+  #about p {
+    width: 90%; }
 
 .about-info {
   margin-top: 5%; }
@@ -1016,7 +1017,10 @@ hr {
 
   .content-area {
     width: 60%;
-    margin: auto auto; } }
+    margin: auto auto; }
+
+  #about p {
+    width: 90%; } }
 @media screen and (max-width: 800px) {
   .navbar {
     padding: 0.5%;
@@ -1044,7 +1048,10 @@ hr {
     text-align: center; }
 
   #splash-text h1 {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem; }
+
+  #about p {
+    width: 100%; } }
 @media screen and (max-width: 430px) {
   .navbar {
     padding: 0.5%;
