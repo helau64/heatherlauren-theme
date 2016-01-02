@@ -55,9 +55,9 @@ get_header(); ?>
 					I’m a fierce and committed activist who works online and in Edinburgh,
 					primarily on combating the criminalisation and stigma of sex workers,
 					queer (particularly trans) rights and opposing oppressive and exclusionary
-					activism. However, I’m especially passionate about dismantling the white,
-					straight, cis and male hegemony that dominates the tech world, an aim that
-					much of my work - in all fields - is centred on.
+					activism. However, I’m especially passionate about dismantling the hegemony
+					that currently dominates the tech world, an aim that much of my work
+					 - in all fields - is centred on.
 				</p>
 			</div>
 
