@@ -44,7 +44,7 @@
 				<li><a class="navbar-click" style="text-transform:uppercase;">Me &#9662</a>
 					<ul class="navbar-dropdown">
 						<li><a href="index.php?page_id=4" style="text-transform:uppercase;">Home</a></li>
-						<li><a href="index.php?page_id=4/#about" style="text-transform:uppercase;">About</a></li>
+						<li><a href="index.php?page_id=4/#about-info" style="text-transform:uppercase;">About</a></li>
 						<li class="navbar-contact"><a href="index.php?page_id=4/#contact" style="text-transform:uppercase;">Contact</a></li>
 					</ul>
 				</li>

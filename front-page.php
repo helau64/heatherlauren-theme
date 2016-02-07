@@ -19,67 +19,50 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<div id="about" class="main-page-section">
+		<div id="about-info" class="main-page-section main-page-text-wrap">
 			<h2 style="text-transform:uppercase;">About</h2>
-			<div class="about-section">
-				<h3 style="text-transform:uppercase;">Designer</h3>
-				<p>
-					Whether I’m creating work for print or the web, I work primarily as a digital artist.
-					While I use modern software and techniques, I find the most inspiration in the past,
-					from archaic Greek pottery to twentieth century propaganda art. 
-				</p>
-			</div>
-			<div class="about-section">
-				<h3 style="text-transform:uppercase;">Developer</h3>
-				<p>
-					Specialising in front-end development, I'm probably best described as an
-					'over-enthusiastic amateur'. I’m most experienced with HTML, Sass and 
-					Wordpress development, but I’m constantly learning something new. I always 
-					work with two main principles in mind: beauty and accessibility. 
-					I strongly believe that any project can look fantastic <em>and</em> provide a 
-					great experience for all users.
-				</p>
-			</div>
-			<div class="about-section">
-				<h3 style="text-transform:uppercase;">Writer</h3>
-				<p>
-					I love to write about what I find interesting - which is everything from 
-					game design to vegetarian and vegan cooking. I’ve written for a number of 
-					feminist and student publications over the years, but you can mostly find my 
-					work on my <a href="index.php?page_id=68">blog</a>.
-				</p>
-			</div>
-			<div class="about-section">
-				<h3 style="text-transform:uppercase;">Activist</h3>
-				<p>
-					I’m a fierce and committed activist who works online and in Edinburgh,
-					primarily on combating the criminalisation and stigma of sex workers,
-					queer (particularly trans) rights and opposing oppressive and exclusionary
-					activism. However, I’m especially passionate about dismantling the hegemony
-					that currently dominates the tech world, an aim that much of my work
-					 - in all fields - is centred on.
-				</p>
-			</div>
-
-
-			<div class="about-info">
-				<p>
-					I live in a perpetually messy flat in Edinburgh with my girlfriend and our two cats,
-					where you'll usually find me trying to avoid working for my Ancient History degree.
-				</p>
-				<p>
-					(I also like tea, indie comics and classic funk and soul)
-				</p>
-			</div>
+			<p>
+				I'm a rookie designer and front-end developer with a love for Sass, Python and beautiful typography. I build websites, design for web and print, and write 
+				and speak on the intersections between tech, design and radical activism.
+			</p>
+			<p>
+				I live in a perpetually messy flat in Edinburgh with my girlfriend and our two cats,
+				where you'll usually find me trying to avoid working for my Ancient History degree.
+			</p>
+			<p>
+				I also like tea, indie comics and classic funk and soul.
+			</p>
 		</div>
 
-		<div id="contact" class="main-page-section">
+		<div id="contact" class="main-page-section main-page-text-wrap ">
 			<h2 style="text-transform:uppercase;">Contact</h2>
 			<p>
-				Want to get in touch? You can most often find me on <a href="http://twitter.com/HeatherLauren">Twitter</a>, but 
-				I'm also on <a href="https://github.com/heatherlauren">GitHub</a>. Or, if it's important, you should probably
-				<a href="mailto:hello@heatherlauren.me">send me an email</a>.
+				I'm currently available to:
 			</p>
+			<ul>
+				<li>Write for your publication</li>
+				<li>Speak at your event</li>
+				<li>Design for print and web</li>
+			</ul>
+			<p>
+				I'm particularly interested in working with:
+			</p>
+			<ul>
+				<li>Sex workers' rights organisations</li>
+				<li>Local activists</li>
+				<li>Diversity focused tech education groups</li>
+			</ul>
+
+			<h3>Want to get in touch?</h3>
+			
+			<div id="social-media-icons">
+				<a href="http://www.twitter.com/heatherlauren"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/twitter-icon.svg" onerror="this.src='<?php bloginfo('stylesheet_directory'); ?>/imgs/twitter-icon-png.png'; this.onerror=null;"></a>
+
+				<a href="http://www.github.com/heatherlauren"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/github-icon.svg" onerror="this.src='<?php bloginfo('stylesheet_directory'); ?>/imgs/github-icon-png.png'; this.onerror=null;"></a>
+
+				<a href="mailto:hello@heatherlauren.me"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/email-icon.svg" onerror="this.src='<?php bloginfo('stylesheet_directory'); ?>/imgs/email-icon-png.png'; this.onerror=null;"></a>
+			</div>
+
 			<?php get_footer(); ?>
 		</div>
 

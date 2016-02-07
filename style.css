@@ -742,9 +742,6 @@ h3 {
   font-size: 2rem;
   color: #3d5871; }
 
-.main-page-section {
-  padding: 2%; }
-
 #splash {
   width: 100%;
   height: 90vh;
@@ -761,29 +758,32 @@ hr {
   background: white;
   height: 0.2rem; }
 
-#about {
-  background: #DAF1F7;
-  font-family: "p22-underground-sc", sans-serif;
-  font-weight: 900; }
-  #about p {
-    width: 90%; }
+.main-page-text-wrap {
+  font-weight: 900;
+  width: 100%;
+  font-family: "p22-underground", sans-serif; }
+  .main-page-text-wrap p, .main-page-text-wrap ul {
+    line-height: 1.8;
+    font-size: 1.1rem; }
+  .main-page-text-wrap h2 {
+    font-family: "p22-underground-sc", sans-serif;
+    margin-bottom: 0rem;
+    margin-top: 1rem; }
 
-.about-info {
-  margin-top: 5%; }
+#about-info {
+  background: #FFFFFF; }
 
 #contact {
-  width: 100%;
-  background: #6C7A89;
-  color: white;
-  font-family: "p22-underground-sc", sans-serif;
-  font-weight: 900; }
-  #contact p {
-    font-family: "p22-underground", sans-serif; }
-  #contact a {
-    color: #bbbbbb;
-    text-decoration: none; }
-  #contact a:hover {
-    color: #888888; }
+  background: #F3F3F3; }
+  #contact h3 {
+    margin-bottom: 1rem; }
+  #contact ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0; }
+
+#social-media-icons a {
+  padding: 0% 1%; }
 
 /*--------------------------------------------------------------
 5.0 Blog
@@ -959,12 +959,6 @@ hr {
     .navbar a {
       padding: 1.5rem; }
 
-  #about {
-    padding-right: 15%; }
-
-  .about-section p {
-    padding-left: 8%; }
-
   .entry-title, .page-title {
     font-size: 3rem; }
 
@@ -972,20 +966,15 @@ hr {
     width: 60%;
     margin: auto auto; }
 
-  #about p {
-    width: 90%; } }
+  .main-page-text-wrap {
+    text-align: center;
+    padding: 1% 26%; } }
 @media screen and (max-width: 800px) {
   .navbar {
     padding: 0.5%;
     padding-top: 2%; }
     .navbar a {
       padding: 0.5rem; }
-
-  .main-page-section {
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    line-height: 1.5; }
 
   h1 {
     text-align: left; }
@@ -1000,11 +989,23 @@ hr {
   .form-submit {
     text-align: center; }
 
+  #about h1 {
+    font-size: 2.5rem; }
+  #about h3 {
+    font-size: 1.5rem; }
+
+  #contact {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem; }
+
   #splash-text h1 {
     font-size: 2.5rem; }
 
-  #about p {
-    width: 100%; } }
+  .main-page-section {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5; } }
 @media screen and (max-width: 430px) {
   .navbar {
     padding: 0.5%;
