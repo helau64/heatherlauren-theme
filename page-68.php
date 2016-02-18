@@ -20,9 +20,6 @@ get_header(); ?>
 						<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 					</header><!-- .entry-header -->
 					<div class="page-intro">
-						<p>
-							Where design, activism and nerdery meet up to bitch about their exes
-						</p>
 						<div class="button-container">
 							<input type="submit" class="search-submit search-button" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
 							<!-- <a href="index.php?page_id=560"><button class="archive-button">ARCHIVES</button></a> -->
